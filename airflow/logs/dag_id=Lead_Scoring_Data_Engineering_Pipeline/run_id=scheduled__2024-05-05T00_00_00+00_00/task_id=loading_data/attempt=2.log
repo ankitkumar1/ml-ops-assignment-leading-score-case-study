@@ -1,0 +1,44 @@
+[2024-05-06 04:49:02,975] {taskinstance.py:1179} INFO - Dependencies all met for <TaskInstance: Lead_Scoring_Data_Engineering_Pipeline.loading_data scheduled__2024-05-05T00:00:00+00:00 [queued]>
+[2024-05-06 04:49:02,980] {taskinstance.py:1179} INFO - Dependencies all met for <TaskInstance: Lead_Scoring_Data_Engineering_Pipeline.loading_data scheduled__2024-05-05T00:00:00+00:00 [queued]>
+[2024-05-06 04:49:02,980] {taskinstance.py:1376} INFO - 
+--------------------------------------------------------------------------------
+[2024-05-06 04:49:02,980] {taskinstance.py:1377} INFO - Starting attempt 2 of 2
+[2024-05-06 04:49:02,980] {taskinstance.py:1378} INFO - 
+--------------------------------------------------------------------------------
+[2024-05-06 04:49:03,000] {taskinstance.py:1397} INFO - Executing <Task(PythonOperator): loading_data> on 2024-05-05 00:00:00+00:00
+[2024-05-06 04:49:03,004] {standard_task_runner.py:52} INFO - Started process 1303 to run task
+[2024-05-06 04:49:03,007] {standard_task_runner.py:79} INFO - Running: ['airflow', 'tasks', 'run', 'Lead_Scoring_Data_Engineering_Pipeline', 'loading_data', 'scheduled__2024-05-05T00:00:00+00:00', '--job-id', '19', '--raw', '--subdir', 'DAGS_FOLDER/Lead_scoring_data_pipeline/.ipynb_checkpoints/lead_scoring_data_pipeline-checkpoint.py', '--cfg-path', '/tmp/tmp8l6bo0op', '--error-file', '/tmp/tmp0qwsznpy']
+[2024-05-06 04:49:03,008] {standard_task_runner.py:80} INFO - Job 19: Subtask loading_data
+[2024-05-06 04:49:03,049] {task_command.py:371} INFO - Running <TaskInstance: Lead_Scoring_Data_Engineering_Pipeline.loading_data scheduled__2024-05-05T00:00:00+00:00 [running]> on host 9eefda8bbe39
+[2024-05-06 04:49:03,092] {taskinstance.py:1589} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=Lead_Scoring_Data_Engineering_Pipeline
+AIRFLOW_CTX_TASK_ID=loading_data
+AIRFLOW_CTX_EXECUTION_DATE=2024-05-05T00:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=2
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2024-05-05T00:00:00+00:00
+[2024-05-06 04:49:03,094] {taskinstance.py:1909} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/opt/conda/lib/python3.8/site-packages/airflow/operators/python.py", line 171, in execute
+    return_value = self.execute_callable()
+  File "/opt/conda/lib/python3.8/site-packages/airflow/operators/python.py", line 189, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/home/airflow/dags/Lead_scoring_data_pipeline/utils.py", line 95, in load_data_into_db
+    data = pd.read_csv(os.path.join(DATA_DIRECTORY, 'leadscoring.csv'), index_col=[0])
+  File "/opt/conda/lib/python3.8/site-packages/pandas/util/_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "/opt/conda/lib/python3.8/site-packages/pandas/io/parsers/readers.py", line 680, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/opt/conda/lib/python3.8/site-packages/pandas/io/parsers/readers.py", line 575, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "/opt/conda/lib/python3.8/site-packages/pandas/io/parsers/readers.py", line 934, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "/opt/conda/lib/python3.8/site-packages/pandas/io/parsers/readers.py", line 1218, in _make_engine
+    self.handles = get_handle(  # type: ignore[call-overload]
+  File "/opt/conda/lib/python3.8/site-packages/pandas/io/common.py", line 786, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: 'data/leadscoring.csv'
+[2024-05-06 04:49:03,097] {taskinstance.py:1415} INFO - Marking task as FAILED. dag_id=Lead_Scoring_Data_Engineering_Pipeline, task_id=loading_data, execution_date=20240505T000000, start_date=20240506T044902, end_date=20240506T044903
+[2024-05-06 04:49:03,138] {standard_task_runner.py:92} ERROR - Failed to execute job 19 for task loading_data ([Errno 2] No such file or directory: 'data/leadscoring.csv'; 1303)
+[2024-05-06 04:49:03,178] {local_task_job.py:156} INFO - Task exited with return code 1
+[2024-05-06 04:49:03,232] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check

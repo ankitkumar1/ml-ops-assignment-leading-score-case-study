@@ -1,0 +1,38 @@
+[2024-05-05 09:51:05,145] {taskinstance.py:1179} INFO - Dependencies all met for <TaskInstance: Lead_Scoring_Data_Engineering_Pipeline.mapping_categorical_vars scheduled__2024-05-04T00:00:00+00:00 [queued]>
+[2024-05-05 09:51:05,150] {taskinstance.py:1179} INFO - Dependencies all met for <TaskInstance: Lead_Scoring_Data_Engineering_Pipeline.mapping_categorical_vars scheduled__2024-05-04T00:00:00+00:00 [queued]>
+[2024-05-05 09:51:05,150] {taskinstance.py:1376} INFO - 
+--------------------------------------------------------------------------------
+[2024-05-05 09:51:05,150] {taskinstance.py:1377} INFO - Starting attempt 1 of 2
+[2024-05-05 09:51:05,150] {taskinstance.py:1378} INFO - 
+--------------------------------------------------------------------------------
+[2024-05-05 09:51:05,172] {taskinstance.py:1397} INFO - Executing <Task(PythonOperator): mapping_categorical_vars> on 2024-05-04 00:00:00+00:00
+[2024-05-05 09:51:05,176] {standard_task_runner.py:52} INFO - Started process 1225 to run task
+[2024-05-05 09:51:05,179] {standard_task_runner.py:79} INFO - Running: ['airflow', 'tasks', 'run', 'Lead_Scoring_Data_Engineering_Pipeline', 'mapping_categorical_vars', 'scheduled__2024-05-04T00:00:00+00:00', '--job-id', '10', '--raw', '--subdir', 'DAGS_FOLDER/Lead_scoring_data_pipeline/.ipynb_checkpoints/lead_scoring_data_pipeline-checkpoint.py', '--cfg-path', '/tmp/tmpfext99iy', '--error-file', '/tmp/tmpryr8r0jy']
+[2024-05-05 09:51:05,180] {standard_task_runner.py:80} INFO - Job 10: Subtask mapping_categorical_vars
+[2024-05-05 09:51:05,224] {task_command.py:371} INFO - Running <TaskInstance: Lead_Scoring_Data_Engineering_Pipeline.mapping_categorical_vars scheduled__2024-05-04T00:00:00+00:00 [running]> on host 95e735c85bd1
+[2024-05-05 09:51:05,325] {taskinstance.py:1589} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=Lead_Scoring_Data_Engineering_Pipeline
+AIRFLOW_CTX_TASK_ID=mapping_categorical_vars
+AIRFLOW_CTX_EXECUTION_DATE=2024-05-04T00:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2024-05-04T00:00:00+00:00
+[2024-05-05 09:51:09,152] {logging_mixin.py:115} WARNING - /home/airflow/dags/Lead_scoring_data_pipeline/utils.py:187 SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+[2024-05-05 09:51:09,487] {logging_mixin.py:115} WARNING - /home/airflow/dags/Lead_scoring_data_pipeline/utils.py:192 SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+[2024-05-05 09:51:09,798] {logging_mixin.py:115} WARNING - /home/airflow/dags/Lead_scoring_data_pipeline/utils.py:197 SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+[2024-05-05 09:51:15,224] {python.py:173} INFO - Done. Returned value was: None
+[2024-05-05 09:51:15,230] {taskinstance.py:1415} INFO - Marking task as SUCCESS. dag_id=Lead_Scoring_Data_Engineering_Pipeline, task_id=mapping_categorical_vars, execution_date=20240504T000000, start_date=20240505T095105, end_date=20240505T095115
+[2024-05-05 09:51:15,260] {local_task_job.py:156} INFO - Task exited with return code 0
+[2024-05-05 09:51:15,325] {local_task_job.py:273} INFO - 1 downstream tasks scheduled from follow-on schedule check

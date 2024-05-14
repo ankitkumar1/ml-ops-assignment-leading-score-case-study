@@ -1,0 +1,38 @@
+[2024-05-06 06:00:31,297] {taskinstance.py:1179} INFO - Dependencies all met for <TaskInstance: Lead_scoring_inference_pipeline.generating_models_prediction scheduled__2024-05-06T05:00:00+00:00 [queued]>
+[2024-05-06 06:00:31,302] {taskinstance.py:1179} INFO - Dependencies all met for <TaskInstance: Lead_scoring_inference_pipeline.generating_models_prediction scheduled__2024-05-06T05:00:00+00:00 [queued]>
+[2024-05-06 06:00:31,302] {taskinstance.py:1376} INFO - 
+--------------------------------------------------------------------------------
+[2024-05-06 06:00:31,302] {taskinstance.py:1377} INFO - Starting attempt 2 of 2
+[2024-05-06 06:00:31,302] {taskinstance.py:1378} INFO - 
+--------------------------------------------------------------------------------
+[2024-05-06 06:00:31,321] {taskinstance.py:1397} INFO - Executing <Task(PythonOperator): generating_models_prediction> on 2024-05-06 05:00:00+00:00
+[2024-05-06 06:00:31,326] {standard_task_runner.py:52} INFO - Started process 9400 to run task
+[2024-05-06 06:00:31,329] {standard_task_runner.py:79} INFO - Running: ['airflow', 'tasks', 'run', 'Lead_scoring_inference_pipeline', 'generating_models_prediction', 'scheduled__2024-05-06T05:00:00+00:00', '--job-id', '62', '--raw', '--subdir', 'DAGS_FOLDER/Lead_scoring_inference_pipeline/.ipynb_checkpoints/lead_scoring_inference_pipeline-checkpoint.py', '--cfg-path', '/tmp/tmpigifp74m', '--error-file', '/tmp/tmp2vldwuhd']
+[2024-05-06 06:00:31,330] {standard_task_runner.py:80} INFO - Job 62: Subtask generating_models_prediction
+[2024-05-06 06:00:31,382] {task_command.py:371} INFO - Running <TaskInstance: Lead_scoring_inference_pipeline.generating_models_prediction scheduled__2024-05-06T05:00:00+00:00 [running]> on host 9eefda8bbe39
+[2024-05-06 06:00:31,531] {taskinstance.py:1589} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=Lead_scoring_inference_pipeline
+AIRFLOW_CTX_TASK_ID=generating_models_prediction
+AIRFLOW_CTX_EXECUTION_DATE=2024-05-06T05:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=2
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2024-05-06T05:00:00+00:00
+[2024-05-06 06:00:35,460] {taskinstance.py:1909} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/opt/conda/lib/python3.8/site-packages/airflow/operators/python.py", line 171, in execute
+    return_value = self.execute_callable()
+  File "/opt/conda/lib/python3.8/site-packages/airflow/operators/python.py", line 189, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/home/airflow/dags/Lead_scoring_inference_pipeline/utils.py", line 100, in get_models_prediction
+    load_model = mlflow.pyfunc.load_model(MODEL_PATH)
+  File "/opt/conda/lib/python3.8/site-packages/mlflow/pyfunc/__init__.py", line 716, in load_model
+    local_path = _download_artifact_from_uri(artifact_uri=model_uri, output_path=dst_path)
+  File "/opt/conda/lib/python3.8/site-packages/mlflow/tracking/artifact_utils.py", line 94, in _download_artifact_from_uri
+    return get_artifact_repository(artifact_uri=root_uri).download_artifacts(
+  File "/opt/conda/lib/python3.8/site-packages/mlflow/store/artifact/local_artifact_repo.py", line 79, in download_artifacts
+    raise IOError("No such file or directory: '{}'".format(local_artifact_path))
+OSError: No such file or directory: '/home/airflow/dags/Lead_scoring_training_pipelines'
+[2024-05-06 06:00:35,464] {taskinstance.py:1415} INFO - Marking task as FAILED. dag_id=Lead_scoring_inference_pipeline, task_id=generating_models_prediction, execution_date=20240506T050000, start_date=20240506T060031, end_date=20240506T060035
+[2024-05-06 06:00:35,484] {standard_task_runner.py:92} ERROR - Failed to execute job 62 for task generating_models_prediction (No such file or directory: '/home/airflow/dags/Lead_scoring_training_pipelines'; 9400)
+[2024-05-06 06:00:35,517] {local_task_job.py:156} INFO - Task exited with return code 1
+[2024-05-06 06:00:35,594] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check

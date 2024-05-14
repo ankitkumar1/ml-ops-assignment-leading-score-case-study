@@ -1,0 +1,326 @@
+[2024-05-05 09:48:33,354] {processor.py:153} INFO - Started process (PID=933) to work on /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2024-05-05 09:48:33,354] {processor.py:641} INFO - Processing file /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2024-05-05 09:48:33,355] {logging_mixin.py:115} INFO - [2024-05-05 09:48:33,355] {dagbag.py:508} INFO - Filling up the DagBag from /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2024-05-05 09:48:33,479] {processor.py:651} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2024-05-05 09:48:33,555] {logging_mixin.py:115} INFO - [2024-05-05 09:48:33,555] {manager.py:508} INFO - Created Permission View: can read on DAG:example_trigger_target_dag
+[2024-05-05 09:48:33,580] {logging_mixin.py:115} INFO - [2024-05-05 09:48:33,580] {manager.py:508} INFO - Created Permission View: can edit on DAG:example_trigger_target_dag
+[2024-05-05 09:48:33,596] {logging_mixin.py:115} INFO - [2024-05-05 09:48:33,596] {manager.py:508} INFO - Created Permission View: can delete on DAG:example_trigger_target_dag
+[2024-05-05 09:48:33,597] {logging_mixin.py:115} INFO - [2024-05-05 09:48:33,597] {dag.py:2420} INFO - Sync 1 DAGs
+[2024-05-05 09:48:33,604] {logging_mixin.py:115} INFO - [2024-05-05 09:48:33,604] {dag.py:2439} INFO - Creating ORM DAG for example_trigger_target_dag
+[2024-05-05 09:48:33,615] {logging_mixin.py:115} INFO - [2024-05-05 09:48:33,615] {dag.py:2968} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2024-05-05 09:48:33,642] {processor.py:161} INFO - Processing /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.290 seconds
+[2024-05-05 09:49:19,126] {processor.py:153} INFO - Started process (PID=985) to work on /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2024-05-05 09:49:19,127] {processor.py:641} INFO - Processing file /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2024-05-05 09:49:19,128] {logging_mixin.py:115} INFO - [2024-05-05 09:49:19,127] {dagbag.py:508} INFO - Filling up the DagBag from /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2024-05-05 09:49:19,255] {processor.py:651} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2024-05-05 09:49:19,264] {logging_mixin.py:115} INFO - [2024-05-05 09:49:19,264] {dag.py:2420} INFO - Sync 1 DAGs
+[2024-05-05 09:49:19,276] {logging_mixin.py:115} INFO - [2024-05-05 09:49:19,276] {dag.py:2968} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2024-05-05 09:49:19,302] {processor.py:161} INFO - Processing /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.180 seconds
+[2024-05-05 09:50:03,911] {processor.py:153} INFO - Started process (PID=1037) to work on /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2024-05-05 09:50:03,913] {processor.py:641} INFO - Processing file /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2024-05-05 09:50:03,913] {logging_mixin.py:115} INFO - [2024-05-05 09:50:03,913] {dagbag.py:508} INFO - Filling up the DagBag from /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2024-05-05 09:50:04,070] {processor.py:651} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2024-05-05 09:50:04,082] {logging_mixin.py:115} INFO - [2024-05-05 09:50:04,081] {dag.py:2420} INFO - Sync 1 DAGs
+[2024-05-05 09:50:04,096] {logging_mixin.py:115} INFO - [2024-05-05 09:50:04,096] {dag.py:2968} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2024-05-05 09:50:04,120] {processor.py:161} INFO - Processing /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.213 seconds
+[2024-05-05 09:52:15,019] {processor.py:153} INFO - Started process (PID=1342) to work on /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2024-05-05 09:52:15,021] {processor.py:641} INFO - Processing file /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2024-05-05 09:52:15,021] {logging_mixin.py:115} INFO - [2024-05-05 09:52:15,021] {dagbag.py:508} INFO - Filling up the DagBag from /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2024-05-05 09:52:15,176] {processor.py:651} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2024-05-05 09:52:15,187] {logging_mixin.py:115} INFO - [2024-05-05 09:52:15,187] {dag.py:2420} INFO - Sync 1 DAGs
+[2024-05-05 09:52:15,201] {logging_mixin.py:115} INFO - [2024-05-05 09:52:15,201] {dag.py:2968} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2024-05-05 09:52:15,220] {processor.py:161} INFO - Processing /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.204 seconds
+[2024-05-05 09:53:00,046] {processor.py:153} INFO - Started process (PID=1394) to work on /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2024-05-05 09:53:00,048] {processor.py:641} INFO - Processing file /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2024-05-05 09:53:00,048] {logging_mixin.py:115} INFO - [2024-05-05 09:53:00,048] {dagbag.py:508} INFO - Filling up the DagBag from /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2024-05-05 09:53:00,179] {processor.py:651} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2024-05-05 09:53:00,187] {logging_mixin.py:115} INFO - [2024-05-05 09:53:00,187] {dag.py:2420} INFO - Sync 1 DAGs
+[2024-05-05 09:53:00,199] {logging_mixin.py:115} INFO - [2024-05-05 09:53:00,199] {dag.py:2968} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2024-05-05 09:53:00,218] {processor.py:161} INFO - Processing /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.174 seconds
+[2024-05-05 09:53:44,961] {processor.py:153} INFO - Started process (PID=1446) to work on /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2024-05-05 09:53:44,963] {processor.py:641} INFO - Processing file /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2024-05-05 09:53:44,963] {logging_mixin.py:115} INFO - [2024-05-05 09:53:44,963] {dagbag.py:508} INFO - Filling up the DagBag from /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2024-05-05 09:53:45,089] {processor.py:651} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2024-05-05 09:53:45,097] {logging_mixin.py:115} INFO - [2024-05-05 09:53:45,097] {dag.py:2420} INFO - Sync 1 DAGs
+[2024-05-05 09:53:45,108] {logging_mixin.py:115} INFO - [2024-05-05 09:53:45,108] {dag.py:2968} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2024-05-05 09:53:45,126] {processor.py:161} INFO - Processing /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.168 seconds
+[2024-05-05 09:54:27,374] {processor.py:153} INFO - Started process (PID=1498) to work on /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2024-05-05 09:54:27,375] {processor.py:641} INFO - Processing file /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2024-05-05 09:54:27,376] {logging_mixin.py:115} INFO - [2024-05-05 09:54:27,376] {dagbag.py:508} INFO - Filling up the DagBag from /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2024-05-05 09:54:27,503] {processor.py:651} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2024-05-05 09:54:27,511] {logging_mixin.py:115} INFO - [2024-05-05 09:54:27,511] {dag.py:2420} INFO - Sync 1 DAGs
+[2024-05-05 09:54:27,523] {logging_mixin.py:115} INFO - [2024-05-05 09:54:27,523] {dag.py:2968} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2024-05-05 09:54:27,548] {processor.py:161} INFO - Processing /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.177 seconds
+[2024-05-05 09:55:11,718] {processor.py:153} INFO - Started process (PID=1559) to work on /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2024-05-05 09:55:11,720] {processor.py:641} INFO - Processing file /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2024-05-05 09:55:11,720] {logging_mixin.py:115} INFO - [2024-05-05 09:55:11,720] {dagbag.py:508} INFO - Filling up the DagBag from /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2024-05-05 09:55:11,854] {processor.py:651} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2024-05-05 09:55:11,863] {logging_mixin.py:115} INFO - [2024-05-05 09:55:11,863] {dag.py:2420} INFO - Sync 1 DAGs
+[2024-05-05 09:55:11,875] {logging_mixin.py:115} INFO - [2024-05-05 09:55:11,875] {dag.py:2968} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2024-05-05 09:55:11,902] {processor.py:161} INFO - Processing /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.186 seconds
+[2024-05-05 09:55:49,721] {processor.py:153} INFO - Started process (PID=1608) to work on /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2024-05-05 09:55:49,722] {processor.py:641} INFO - Processing file /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2024-05-05 09:55:49,723] {logging_mixin.py:115} INFO - [2024-05-05 09:55:49,723] {dagbag.py:508} INFO - Filling up the DagBag from /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2024-05-05 09:55:49,854] {processor.py:651} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2024-05-05 09:55:49,863] {logging_mixin.py:115} INFO - [2024-05-05 09:55:49,863] {dag.py:2420} INFO - Sync 1 DAGs
+[2024-05-05 09:55:49,875] {logging_mixin.py:115} INFO - [2024-05-05 09:55:49,875] {dag.py:2968} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2024-05-05 09:55:49,895] {processor.py:161} INFO - Processing /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.177 seconds
+[2024-05-05 09:56:30,151] {processor.py:153} INFO - Started process (PID=1658) to work on /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2024-05-05 09:56:30,153] {processor.py:641} INFO - Processing file /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2024-05-05 09:56:30,154] {logging_mixin.py:115} INFO - [2024-05-05 09:56:30,153] {dagbag.py:508} INFO - Filling up the DagBag from /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2024-05-05 09:56:30,311] {processor.py:651} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2024-05-05 09:56:30,319] {logging_mixin.py:115} INFO - [2024-05-05 09:56:30,319] {dag.py:2420} INFO - Sync 1 DAGs
+[2024-05-05 09:56:30,330] {logging_mixin.py:115} INFO - [2024-05-05 09:56:30,330] {dag.py:2968} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2024-05-05 09:56:30,347] {processor.py:161} INFO - Processing /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.199 seconds
+[2024-05-05 09:57:05,364] {processor.py:153} INFO - Started process (PID=1705) to work on /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2024-05-05 09:57:05,366] {processor.py:641} INFO - Processing file /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2024-05-05 09:57:05,366] {logging_mixin.py:115} INFO - [2024-05-05 09:57:05,366] {dagbag.py:508} INFO - Filling up the DagBag from /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2024-05-05 09:57:05,528] {processor.py:651} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2024-05-05 09:57:05,538] {logging_mixin.py:115} INFO - [2024-05-05 09:57:05,538] {dag.py:2420} INFO - Sync 1 DAGs
+[2024-05-05 09:57:05,550] {logging_mixin.py:115} INFO - [2024-05-05 09:57:05,550] {dag.py:2968} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2024-05-05 09:57:05,570] {processor.py:161} INFO - Processing /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.209 seconds
+[2024-05-05 09:57:52,498] {processor.py:153} INFO - Started process (PID=1769) to work on /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2024-05-05 09:57:52,499] {processor.py:641} INFO - Processing file /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2024-05-05 09:57:52,499] {logging_mixin.py:115} INFO - [2024-05-05 09:57:52,499] {dagbag.py:508} INFO - Filling up the DagBag from /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2024-05-05 09:57:52,629] {processor.py:651} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2024-05-05 09:57:52,638] {logging_mixin.py:115} INFO - [2024-05-05 09:57:52,638] {dag.py:2420} INFO - Sync 1 DAGs
+[2024-05-05 09:57:52,649] {logging_mixin.py:115} INFO - [2024-05-05 09:57:52,649] {dag.py:2968} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2024-05-05 09:57:52,667] {processor.py:161} INFO - Processing /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.173 seconds
+[2024-05-05 09:58:30,393] {processor.py:153} INFO - Started process (PID=1819) to work on /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2024-05-05 09:58:30,395] {processor.py:641} INFO - Processing file /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2024-05-05 09:58:30,395] {logging_mixin.py:115} INFO - [2024-05-05 09:58:30,395] {dagbag.py:508} INFO - Filling up the DagBag from /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2024-05-05 09:58:30,410] {processor.py:651} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2024-05-05 09:58:30,423] {logging_mixin.py:115} INFO - [2024-05-05 09:58:30,423] {dag.py:2420} INFO - Sync 1 DAGs
+[2024-05-05 09:58:30,436] {logging_mixin.py:115} INFO - [2024-05-05 09:58:30,436] {dag.py:2968} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2024-05-05 09:58:30,456] {processor.py:161} INFO - Processing /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.065 seconds
+[2024-05-05 09:59:08,143] {processor.py:153} INFO - Started process (PID=1871) to work on /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2024-05-05 09:59:08,144] {processor.py:641} INFO - Processing file /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2024-05-05 09:59:08,145] {logging_mixin.py:115} INFO - [2024-05-05 09:59:08,145] {dagbag.py:508} INFO - Filling up the DagBag from /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2024-05-05 09:59:08,161] {processor.py:651} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2024-05-05 09:59:08,177] {logging_mixin.py:115} INFO - [2024-05-05 09:59:08,177] {dag.py:2420} INFO - Sync 1 DAGs
+[2024-05-05 09:59:08,194] {logging_mixin.py:115} INFO - [2024-05-05 09:59:08,194] {dag.py:2968} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2024-05-05 09:59:08,216] {processor.py:161} INFO - Processing /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.076 seconds
+[2024-05-05 09:59:45,802] {processor.py:153} INFO - Started process (PID=1923) to work on /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2024-05-05 09:59:45,804] {processor.py:641} INFO - Processing file /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2024-05-05 09:59:45,804] {logging_mixin.py:115} INFO - [2024-05-05 09:59:45,804] {dagbag.py:508} INFO - Filling up the DagBag from /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2024-05-05 09:59:45,820] {processor.py:651} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2024-05-05 09:59:45,833] {logging_mixin.py:115} INFO - [2024-05-05 09:59:45,833] {dag.py:2420} INFO - Sync 1 DAGs
+[2024-05-05 09:59:45,846] {logging_mixin.py:115} INFO - [2024-05-05 09:59:45,846] {dag.py:2968} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2024-05-05 09:59:45,866] {processor.py:161} INFO - Processing /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.066 seconds
+[2024-05-05 10:00:24,478] {processor.py:153} INFO - Started process (PID=1977) to work on /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2024-05-05 10:00:24,479] {processor.py:641} INFO - Processing file /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2024-05-05 10:00:24,480] {logging_mixin.py:115} INFO - [2024-05-05 10:00:24,480] {dagbag.py:508} INFO - Filling up the DagBag from /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2024-05-05 10:00:24,496] {processor.py:651} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2024-05-05 10:00:24,509] {logging_mixin.py:115} INFO - [2024-05-05 10:00:24,509] {dag.py:2420} INFO - Sync 1 DAGs
+[2024-05-05 10:00:24,522] {logging_mixin.py:115} INFO - [2024-05-05 10:00:24,522] {dag.py:2968} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2024-05-05 10:00:24,541] {processor.py:161} INFO - Processing /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.066 seconds
+[2024-05-05 10:01:02,042] {processor.py:153} INFO - Started process (PID=2039) to work on /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2024-05-05 10:01:02,044] {processor.py:641} INFO - Processing file /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2024-05-05 10:01:02,044] {logging_mixin.py:115} INFO - [2024-05-05 10:01:02,044] {dagbag.py:508} INFO - Filling up the DagBag from /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2024-05-05 10:01:02,061] {processor.py:651} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2024-05-05 10:01:02,075] {logging_mixin.py:115} INFO - [2024-05-05 10:01:02,075] {dag.py:2420} INFO - Sync 1 DAGs
+[2024-05-05 10:01:02,088] {logging_mixin.py:115} INFO - [2024-05-05 10:01:02,088] {dag.py:2968} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2024-05-05 10:01:02,115] {processor.py:161} INFO - Processing /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.076 seconds
+[2024-05-05 10:01:34,926] {processor.py:153} INFO - Started process (PID=2088) to work on /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2024-05-05 10:01:34,928] {processor.py:641} INFO - Processing file /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2024-05-05 10:01:34,928] {logging_mixin.py:115} INFO - [2024-05-05 10:01:34,928] {dagbag.py:508} INFO - Filling up the DagBag from /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2024-05-05 10:01:34,945] {processor.py:651} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2024-05-05 10:01:34,961] {logging_mixin.py:115} INFO - [2024-05-05 10:01:34,961] {dag.py:2420} INFO - Sync 1 DAGs
+[2024-05-05 10:01:34,979] {logging_mixin.py:115} INFO - [2024-05-05 10:01:34,979] {dag.py:2968} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2024-05-05 10:01:35,000] {processor.py:161} INFO - Processing /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.077 seconds
+[2024-05-05 10:02:10,017] {processor.py:153} INFO - Started process (PID=2139) to work on /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2024-05-05 10:02:10,019] {processor.py:641} INFO - Processing file /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2024-05-05 10:02:10,019] {logging_mixin.py:115} INFO - [2024-05-05 10:02:10,019] {dagbag.py:508} INFO - Filling up the DagBag from /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2024-05-05 10:02:10,035] {processor.py:651} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2024-05-05 10:02:10,048] {logging_mixin.py:115} INFO - [2024-05-05 10:02:10,048] {dag.py:2420} INFO - Sync 1 DAGs
+[2024-05-05 10:02:10,061] {logging_mixin.py:115} INFO - [2024-05-05 10:02:10,061] {dag.py:2968} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2024-05-05 10:02:10,080] {processor.py:161} INFO - Processing /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.065 seconds
+[2024-05-05 10:02:44,983] {processor.py:153} INFO - Started process (PID=2191) to work on /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2024-05-05 10:02:44,984] {processor.py:641} INFO - Processing file /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2024-05-05 10:02:44,984] {logging_mixin.py:115} INFO - [2024-05-05 10:02:44,984] {dagbag.py:508} INFO - Filling up the DagBag from /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2024-05-05 10:02:45,000] {processor.py:651} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2024-05-05 10:02:45,013] {logging_mixin.py:115} INFO - [2024-05-05 10:02:45,013] {dag.py:2420} INFO - Sync 1 DAGs
+[2024-05-05 10:02:45,026] {logging_mixin.py:115} INFO - [2024-05-05 10:02:45,026] {dag.py:2968} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2024-05-05 10:02:45,044] {processor.py:161} INFO - Processing /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.064 seconds
+[2024-05-05 10:03:18,466] {processor.py:153} INFO - Started process (PID=2240) to work on /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2024-05-05 10:03:18,468] {processor.py:641} INFO - Processing file /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2024-05-05 10:03:18,468] {logging_mixin.py:115} INFO - [2024-05-05 10:03:18,468] {dagbag.py:508} INFO - Filling up the DagBag from /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2024-05-05 10:03:18,484] {processor.py:651} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2024-05-05 10:03:18,497] {logging_mixin.py:115} INFO - [2024-05-05 10:03:18,497] {dag.py:2420} INFO - Sync 1 DAGs
+[2024-05-05 10:03:18,510] {logging_mixin.py:115} INFO - [2024-05-05 10:03:18,510] {dag.py:2968} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2024-05-05 10:03:18,528] {processor.py:161} INFO - Processing /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.065 seconds
+[2024-05-05 10:03:51,558] {processor.py:153} INFO - Started process (PID=2289) to work on /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2024-05-05 10:03:51,559] {processor.py:641} INFO - Processing file /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2024-05-05 10:03:51,560] {logging_mixin.py:115} INFO - [2024-05-05 10:03:51,560] {dagbag.py:508} INFO - Filling up the DagBag from /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2024-05-05 10:03:51,575] {processor.py:651} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2024-05-05 10:03:51,588] {logging_mixin.py:115} INFO - [2024-05-05 10:03:51,588] {dag.py:2420} INFO - Sync 1 DAGs
+[2024-05-05 10:03:51,601] {logging_mixin.py:115} INFO - [2024-05-05 10:03:51,601] {dag.py:2968} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2024-05-05 10:03:51,620] {processor.py:161} INFO - Processing /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.066 seconds
+[2024-05-05 10:04:25,987] {processor.py:153} INFO - Started process (PID=2340) to work on /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2024-05-05 10:04:25,988] {processor.py:641} INFO - Processing file /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2024-05-05 10:04:25,989] {logging_mixin.py:115} INFO - [2024-05-05 10:04:25,988] {dagbag.py:508} INFO - Filling up the DagBag from /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2024-05-05 10:04:26,004] {processor.py:651} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2024-05-05 10:04:26,017] {logging_mixin.py:115} INFO - [2024-05-05 10:04:26,017] {dag.py:2420} INFO - Sync 1 DAGs
+[2024-05-05 10:04:26,030] {logging_mixin.py:115} INFO - [2024-05-05 10:04:26,030] {dag.py:2968} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2024-05-05 10:04:26,049] {processor.py:161} INFO - Processing /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.066 seconds
+[2024-05-05 10:05:00,071] {processor.py:153} INFO - Started process (PID=2390) to work on /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2024-05-05 10:05:00,073] {processor.py:641} INFO - Processing file /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2024-05-05 10:05:00,073] {logging_mixin.py:115} INFO - [2024-05-05 10:05:00,073] {dagbag.py:508} INFO - Filling up the DagBag from /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2024-05-05 10:05:00,090] {processor.py:651} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2024-05-05 10:05:00,105] {logging_mixin.py:115} INFO - [2024-05-05 10:05:00,105] {dag.py:2420} INFO - Sync 1 DAGs
+[2024-05-05 10:05:00,119] {logging_mixin.py:115} INFO - [2024-05-05 10:05:00,119] {dag.py:2968} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2024-05-05 10:05:00,139] {processor.py:161} INFO - Processing /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.070 seconds
+[2024-05-05 10:05:37,675] {processor.py:153} INFO - Started process (PID=2444) to work on /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2024-05-05 10:05:37,677] {processor.py:641} INFO - Processing file /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2024-05-05 10:05:37,677] {logging_mixin.py:115} INFO - [2024-05-05 10:05:37,677] {dagbag.py:508} INFO - Filling up the DagBag from /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2024-05-05 10:05:37,695] {processor.py:651} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2024-05-05 10:05:37,710] {logging_mixin.py:115} INFO - [2024-05-05 10:05:37,710] {dag.py:2420} INFO - Sync 1 DAGs
+[2024-05-05 10:05:37,728] {logging_mixin.py:115} INFO - [2024-05-05 10:05:37,728] {dag.py:2968} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2024-05-05 10:05:37,754] {processor.py:161} INFO - Processing /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.082 seconds
+[2024-05-05 10:06:15,006] {processor.py:153} INFO - Started process (PID=2497) to work on /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2024-05-05 10:06:15,008] {processor.py:641} INFO - Processing file /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2024-05-05 10:06:15,009] {logging_mixin.py:115} INFO - [2024-05-05 10:06:15,009] {dagbag.py:508} INFO - Filling up the DagBag from /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2024-05-05 10:06:15,026] {processor.py:651} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2024-05-05 10:06:15,041] {logging_mixin.py:115} INFO - [2024-05-05 10:06:15,041] {dag.py:2420} INFO - Sync 1 DAGs
+[2024-05-05 10:06:15,060] {logging_mixin.py:115} INFO - [2024-05-05 10:06:15,059] {dag.py:2968} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2024-05-05 10:06:15,081] {processor.py:161} INFO - Processing /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.078 seconds
+[2024-05-05 10:06:52,330] {processor.py:153} INFO - Started process (PID=2558) to work on /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2024-05-05 10:06:52,332] {processor.py:641} INFO - Processing file /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2024-05-05 10:06:52,332] {logging_mixin.py:115} INFO - [2024-05-05 10:06:52,332] {dagbag.py:508} INFO - Filling up the DagBag from /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2024-05-05 10:06:52,350] {processor.py:651} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2024-05-05 10:06:52,367] {logging_mixin.py:115} INFO - [2024-05-05 10:06:52,367] {dag.py:2420} INFO - Sync 1 DAGs
+[2024-05-05 10:06:52,381] {logging_mixin.py:115} INFO - [2024-05-05 10:06:52,381] {dag.py:2968} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2024-05-05 10:06:52,402] {processor.py:161} INFO - Processing /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.075 seconds
+[2024-05-05 10:07:28,031] {processor.py:153} INFO - Started process (PID=2630) to work on /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2024-05-05 10:07:28,032] {processor.py:641} INFO - Processing file /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2024-05-05 10:07:28,032] {logging_mixin.py:115} INFO - [2024-05-05 10:07:28,032] {dagbag.py:508} INFO - Filling up the DagBag from /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2024-05-05 10:07:28,049] {processor.py:651} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2024-05-05 10:07:28,065] {logging_mixin.py:115} INFO - [2024-05-05 10:07:28,065] {dag.py:2420} INFO - Sync 1 DAGs
+[2024-05-05 10:07:28,082] {logging_mixin.py:115} INFO - [2024-05-05 10:07:28,082] {dag.py:2968} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2024-05-05 10:07:28,102] {processor.py:161} INFO - Processing /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.075 seconds
+[2024-05-05 10:08:03,726] {processor.py:153} INFO - Started process (PID=2682) to work on /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2024-05-05 10:08:03,728] {processor.py:641} INFO - Processing file /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2024-05-05 10:08:03,728] {logging_mixin.py:115} INFO - [2024-05-05 10:08:03,728] {dagbag.py:508} INFO - Filling up the DagBag from /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2024-05-05 10:08:03,745] {processor.py:651} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2024-05-05 10:08:03,761] {logging_mixin.py:115} INFO - [2024-05-05 10:08:03,761] {dag.py:2420} INFO - Sync 1 DAGs
+[2024-05-05 10:08:03,779] {logging_mixin.py:115} INFO - [2024-05-05 10:08:03,779] {dag.py:2968} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2024-05-05 10:08:03,800] {processor.py:161} INFO - Processing /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.077 seconds
+[2024-05-05 10:08:40,172] {processor.py:153} INFO - Started process (PID=2734) to work on /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2024-05-05 10:08:40,174] {processor.py:641} INFO - Processing file /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2024-05-05 10:08:40,174] {logging_mixin.py:115} INFO - [2024-05-05 10:08:40,174] {dagbag.py:508} INFO - Filling up the DagBag from /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2024-05-05 10:08:40,193] {processor.py:651} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2024-05-05 10:08:40,207] {logging_mixin.py:115} INFO - [2024-05-05 10:08:40,207] {dag.py:2420} INFO - Sync 1 DAGs
+[2024-05-05 10:08:40,221] {logging_mixin.py:115} INFO - [2024-05-05 10:08:40,221] {dag.py:2968} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2024-05-05 10:08:40,241] {processor.py:161} INFO - Processing /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.073 seconds
+[2024-05-05 10:09:20,622] {processor.py:153} INFO - Started process (PID=2793) to work on /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2024-05-05 10:09:20,624] {processor.py:641} INFO - Processing file /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2024-05-05 10:09:20,624] {logging_mixin.py:115} INFO - [2024-05-05 10:09:20,624] {dagbag.py:508} INFO - Filling up the DagBag from /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2024-05-05 10:09:20,640] {processor.py:651} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2024-05-05 10:09:20,653] {logging_mixin.py:115} INFO - [2024-05-05 10:09:20,653] {dag.py:2420} INFO - Sync 1 DAGs
+[2024-05-05 10:09:20,666] {logging_mixin.py:115} INFO - [2024-05-05 10:09:20,666] {dag.py:2968} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2024-05-05 10:09:20,685] {processor.py:161} INFO - Processing /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.066 seconds
+[2024-05-05 10:09:56,230] {processor.py:153} INFO - Started process (PID=2845) to work on /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2024-05-05 10:09:56,231] {processor.py:641} INFO - Processing file /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2024-05-05 10:09:56,232] {logging_mixin.py:115} INFO - [2024-05-05 10:09:56,232] {dagbag.py:508} INFO - Filling up the DagBag from /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2024-05-05 10:09:56,247] {processor.py:651} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2024-05-05 10:09:56,260] {logging_mixin.py:115} INFO - [2024-05-05 10:09:56,260] {dag.py:2420} INFO - Sync 1 DAGs
+[2024-05-05 10:09:56,273] {logging_mixin.py:115} INFO - [2024-05-05 10:09:56,273] {dag.py:2968} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2024-05-05 10:09:56,292] {processor.py:161} INFO - Processing /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.066 seconds
+[2024-05-05 10:10:31,395] {processor.py:153} INFO - Started process (PID=2896) to work on /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2024-05-05 10:10:31,396] {processor.py:641} INFO - Processing file /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2024-05-05 10:10:31,397] {logging_mixin.py:115} INFO - [2024-05-05 10:10:31,396] {dagbag.py:508} INFO - Filling up the DagBag from /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2024-05-05 10:10:31,413] {processor.py:651} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2024-05-05 10:10:31,429] {logging_mixin.py:115} INFO - [2024-05-05 10:10:31,428] {dag.py:2420} INFO - Sync 1 DAGs
+[2024-05-05 10:10:31,442] {logging_mixin.py:115} INFO - [2024-05-05 10:10:31,442] {dag.py:2968} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2024-05-05 10:10:31,460] {processor.py:161} INFO - Processing /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.068 seconds
+[2024-05-05 10:11:06,303] {processor.py:153} INFO - Started process (PID=2948) to work on /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2024-05-05 10:11:06,304] {processor.py:641} INFO - Processing file /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2024-05-05 10:11:06,305] {logging_mixin.py:115} INFO - [2024-05-05 10:11:06,305] {dagbag.py:508} INFO - Filling up the DagBag from /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2024-05-05 10:11:06,322] {processor.py:651} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2024-05-05 10:11:06,337] {logging_mixin.py:115} INFO - [2024-05-05 10:11:06,337] {dag.py:2420} INFO - Sync 1 DAGs
+[2024-05-05 10:11:06,352] {logging_mixin.py:115} INFO - [2024-05-05 10:11:06,352] {dag.py:2968} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2024-05-05 10:11:06,370] {processor.py:161} INFO - Processing /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.071 seconds
+[2024-05-05 10:11:40,939] {processor.py:153} INFO - Started process (PID=2997) to work on /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2024-05-05 10:11:40,940] {processor.py:641} INFO - Processing file /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2024-05-05 10:11:40,941] {logging_mixin.py:115} INFO - [2024-05-05 10:11:40,941] {dagbag.py:508} INFO - Filling up the DagBag from /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2024-05-05 10:11:40,959] {processor.py:651} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2024-05-05 10:11:40,975] {logging_mixin.py:115} INFO - [2024-05-05 10:11:40,975] {dag.py:2420} INFO - Sync 1 DAGs
+[2024-05-05 10:11:40,993] {logging_mixin.py:115} INFO - [2024-05-05 10:11:40,992] {dag.py:2968} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2024-05-05 10:11:41,014] {processor.py:161} INFO - Processing /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.078 seconds
+[2024-05-05 10:12:14,698] {processor.py:153} INFO - Started process (PID=3046) to work on /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2024-05-05 10:12:14,700] {processor.py:641} INFO - Processing file /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2024-05-05 10:12:14,700] {logging_mixin.py:115} INFO - [2024-05-05 10:12:14,700] {dagbag.py:508} INFO - Filling up the DagBag from /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2024-05-05 10:12:14,717] {processor.py:651} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2024-05-05 10:12:14,733] {logging_mixin.py:115} INFO - [2024-05-05 10:12:14,733] {dag.py:2420} INFO - Sync 1 DAGs
+[2024-05-05 10:12:14,750] {logging_mixin.py:115} INFO - [2024-05-05 10:12:14,750] {dag.py:2968} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2024-05-05 10:12:14,771] {processor.py:161} INFO - Processing /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.076 seconds
+[2024-05-05 10:12:51,371] {processor.py:153} INFO - Started process (PID=3099) to work on /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2024-05-05 10:12:51,372] {processor.py:641} INFO - Processing file /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2024-05-05 10:12:51,373] {logging_mixin.py:115} INFO - [2024-05-05 10:12:51,373] {dagbag.py:508} INFO - Filling up the DagBag from /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2024-05-05 10:12:51,390] {processor.py:651} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2024-05-05 10:12:51,405] {logging_mixin.py:115} INFO - [2024-05-05 10:12:51,405] {dag.py:2420} INFO - Sync 1 DAGs
+[2024-05-05 10:12:51,422] {logging_mixin.py:115} INFO - [2024-05-05 10:12:51,421] {dag.py:2968} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2024-05-05 10:12:51,444] {processor.py:161} INFO - Processing /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.076 seconds
+[2024-05-05 10:13:30,635] {processor.py:153} INFO - Started process (PID=3153) to work on /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2024-05-05 10:13:30,636] {processor.py:641} INFO - Processing file /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2024-05-05 10:13:30,637] {logging_mixin.py:115} INFO - [2024-05-05 10:13:30,637] {dagbag.py:508} INFO - Filling up the DagBag from /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2024-05-05 10:13:30,652] {processor.py:651} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2024-05-05 10:13:30,663] {logging_mixin.py:115} INFO - [2024-05-05 10:13:30,663] {dag.py:2420} INFO - Sync 1 DAGs
+[2024-05-05 10:13:30,676] {logging_mixin.py:115} INFO - [2024-05-05 10:13:30,676] {dag.py:2968} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2024-05-05 10:13:30,694] {processor.py:161} INFO - Processing /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.062 seconds
+[2024-05-05 10:14:08,291] {processor.py:153} INFO - Started process (PID=3204) to work on /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2024-05-05 10:14:08,292] {processor.py:641} INFO - Processing file /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2024-05-05 10:14:08,292] {logging_mixin.py:115} INFO - [2024-05-05 10:14:08,292] {dagbag.py:508} INFO - Filling up the DagBag from /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2024-05-05 10:14:08,308] {processor.py:651} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2024-05-05 10:14:08,321] {logging_mixin.py:115} INFO - [2024-05-05 10:14:08,321] {dag.py:2420} INFO - Sync 1 DAGs
+[2024-05-05 10:14:08,334] {logging_mixin.py:115} INFO - [2024-05-05 10:14:08,334] {dag.py:2968} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2024-05-05 10:14:08,353] {processor.py:161} INFO - Processing /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.066 seconds
+[2024-05-05 10:14:42,702] {processor.py:153} INFO - Started process (PID=3253) to work on /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2024-05-05 10:14:42,703] {processor.py:641} INFO - Processing file /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2024-05-05 10:14:42,704] {logging_mixin.py:115} INFO - [2024-05-05 10:14:42,703] {dagbag.py:508} INFO - Filling up the DagBag from /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2024-05-05 10:14:42,722] {processor.py:651} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2024-05-05 10:14:42,738] {logging_mixin.py:115} INFO - [2024-05-05 10:14:42,738] {dag.py:2420} INFO - Sync 1 DAGs
+[2024-05-05 10:14:42,756] {logging_mixin.py:115} INFO - [2024-05-05 10:14:42,756] {dag.py:2968} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2024-05-05 10:14:42,777] {processor.py:161} INFO - Processing /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.079 seconds
+[2024-05-05 10:15:22,603] {processor.py:153} INFO - Started process (PID=3315) to work on /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2024-05-05 10:15:22,604] {processor.py:641} INFO - Processing file /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2024-05-05 10:15:22,605] {logging_mixin.py:115} INFO - [2024-05-05 10:15:22,604] {dagbag.py:508} INFO - Filling up the DagBag from /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2024-05-05 10:15:22,621] {processor.py:651} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2024-05-05 10:15:22,637] {logging_mixin.py:115} INFO - [2024-05-05 10:15:22,637] {dag.py:2420} INFO - Sync 1 DAGs
+[2024-05-05 10:15:22,654] {logging_mixin.py:115} INFO - [2024-05-05 10:15:22,654] {dag.py:2968} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2024-05-05 10:15:22,675] {processor.py:161} INFO - Processing /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.076 seconds
+[2024-05-05 10:16:00,446] {processor.py:153} INFO - Started process (PID=3376) to work on /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2024-05-05 10:16:00,447] {processor.py:641} INFO - Processing file /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2024-05-05 10:16:00,448] {logging_mixin.py:115} INFO - [2024-05-05 10:16:00,447] {dagbag.py:508} INFO - Filling up the DagBag from /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2024-05-05 10:16:00,464] {processor.py:651} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2024-05-05 10:16:00,480] {logging_mixin.py:115} INFO - [2024-05-05 10:16:00,480] {dag.py:2420} INFO - Sync 1 DAGs
+[2024-05-05 10:16:00,497] {logging_mixin.py:115} INFO - [2024-05-05 10:16:00,497] {dag.py:2968} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2024-05-05 10:16:00,518] {processor.py:161} INFO - Processing /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.075 seconds
+[2024-05-05 10:16:36,022] {processor.py:153} INFO - Started process (PID=3428) to work on /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2024-05-05 10:16:36,023] {processor.py:641} INFO - Processing file /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2024-05-05 10:16:36,023] {logging_mixin.py:115} INFO - [2024-05-05 10:16:36,023] {dagbag.py:508} INFO - Filling up the DagBag from /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2024-05-05 10:16:36,039] {processor.py:651} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2024-05-05 10:16:36,052] {logging_mixin.py:115} INFO - [2024-05-05 10:16:36,052] {dag.py:2420} INFO - Sync 1 DAGs
+[2024-05-05 10:16:36,065] {logging_mixin.py:115} INFO - [2024-05-05 10:16:36,065] {dag.py:2968} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2024-05-05 10:16:36,085] {processor.py:161} INFO - Processing /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.066 seconds
+[2024-05-05 10:17:12,790] {processor.py:153} INFO - Started process (PID=3480) to work on /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2024-05-05 10:17:12,792] {processor.py:641} INFO - Processing file /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2024-05-05 10:17:12,792] {logging_mixin.py:115} INFO - [2024-05-05 10:17:12,792] {dagbag.py:508} INFO - Filling up the DagBag from /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2024-05-05 10:17:12,809] {processor.py:651} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2024-05-05 10:17:12,823] {logging_mixin.py:115} INFO - [2024-05-05 10:17:12,823] {dag.py:2420} INFO - Sync 1 DAGs
+[2024-05-05 10:17:12,837] {logging_mixin.py:115} INFO - [2024-05-05 10:17:12,837] {dag.py:2968} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2024-05-05 10:17:12,858] {processor.py:161} INFO - Processing /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.071 seconds
+[2024-05-05 10:17:53,518] {processor.py:153} INFO - Started process (PID=3535) to work on /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2024-05-05 10:17:53,520] {processor.py:641} INFO - Processing file /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2024-05-05 10:17:53,520] {logging_mixin.py:115} INFO - [2024-05-05 10:17:53,520] {dagbag.py:508} INFO - Filling up the DagBag from /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2024-05-05 10:17:53,537] {processor.py:651} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2024-05-05 10:17:53,552] {logging_mixin.py:115} INFO - [2024-05-05 10:17:53,552] {dag.py:2420} INFO - Sync 1 DAGs
+[2024-05-05 10:17:53,569] {logging_mixin.py:115} INFO - [2024-05-05 10:17:53,569] {dag.py:2968} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2024-05-05 10:17:53,590] {processor.py:161} INFO - Processing /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.075 seconds
+[2024-05-05 10:18:32,251] {processor.py:153} INFO - Started process (PID=3591) to work on /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2024-05-05 10:18:32,252] {processor.py:641} INFO - Processing file /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2024-05-05 10:18:32,252] {logging_mixin.py:115} INFO - [2024-05-05 10:18:32,252] {dagbag.py:508} INFO - Filling up the DagBag from /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2024-05-05 10:18:32,269] {processor.py:651} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2024-05-05 10:18:32,283] {logging_mixin.py:115} INFO - [2024-05-05 10:18:32,283] {dag.py:2420} INFO - Sync 1 DAGs
+[2024-05-05 10:18:32,297] {logging_mixin.py:115} INFO - [2024-05-05 10:18:32,297] {dag.py:2968} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2024-05-05 10:18:32,316] {processor.py:161} INFO - Processing /opt/conda/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.068 seconds
